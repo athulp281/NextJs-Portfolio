@@ -15,9 +15,8 @@ function HeroSection() {
                         <br />
                         <TypeAnimation
                             sequence={[
-                                // Same substring at the start will only be typed out once, initially
                                 "Athul",
-                                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                1000,
                                 "Developer",
                                 1000,
                                 "Designer",
@@ -35,11 +34,8 @@ function HeroSection() {
                         />
                     </h1>
                     <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Eos sapiente quaerat quod, molestias nostrum
-                        corporis. Temporibus ducimus aperiam dolores sequi
-                        minima tempora quas, doloremque cupiditate, delectus
-                        quaerat et! Ipsam, voluptas.
+                        Experienced frontend developer with a passion for
+                        creating visually stunning and user-friendly websites.
                     </p>
                     <div>
                         <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">

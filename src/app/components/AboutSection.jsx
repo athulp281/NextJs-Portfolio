@@ -62,10 +62,14 @@ const AboutSection = () => {
                         About Me
                     </h2>
                     <p className="text-base lg:text-lg">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Eveniet beatae dolore sed soluta cum magnam quidem
-                        eum dolor vero ducimus. Iure nemo voluptate autem
-                        architecto, inventore veritatis vero totam eaque.
+                        I'm a passionate front-end developer with expertise in
+                        React.js and Node.js. I specialize in creating dynamic
+                        and user-friendly web applications that deliver
+                        exceptional user experiences. With a keen eye for design
+                        and a strong foundation in modern web technologies, I
+                        thrive on transforming ideas into functional, visually
+                        appealing digital solutions. Let's collaborate to bring
+                        your web projects to life
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton
