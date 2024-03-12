@@ -40,7 +40,7 @@ const AchivementsSection = () => {
                     return (
                         <div
                             key={index}
-                            className="flex flex-col items-center justify-center mx-4 "
+                            className="flex flex-col items-center justify-center mx-4"
                         >
                             <h2 className="text-white tesxt-4xl font-bold flex flex-row">
                                 {item.prefix}
