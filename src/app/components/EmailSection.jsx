@@ -41,7 +41,7 @@ const EmailSection = () => {
     };
     return (
         <section className="grid md:grid-cols-2 my-12 py-24 gap-4 relative">
-            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+            <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
             <div className="">
                 <h5 className="text-xl font-bold text-white my-2">
                     Let's Connect
@@ -54,10 +54,18 @@ const EmailSection = () => {
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="github.com">
-                        <Image src={githubIcon} alt="github Icon" />
+                        <Image
+                            src={githubIcon}
+                            alt="github Icon"
+                            className="bg-white border rounded-full"
+                        />
                     </Link>
                     <Link href="linkedin.com">
-                        <Image src={linkedinIcon} alt="linkedin icon" />
+                        <Image
+                            src={linkedinIcon}
+                            alt="linkedin icon"
+                            className="bg-white border rounded-full"
+                        />
                     </Link>
                 </div>
             </div>
@@ -112,7 +120,7 @@ const EmailSection = () => {
                     </div>
                     <button
                         type="submit"
-                        className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+                        className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
                     >
                         Send Message
                     </button>
