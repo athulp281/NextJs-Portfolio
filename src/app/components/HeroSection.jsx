@@ -33,7 +33,7 @@ function HeroSection() {
                             wrapper="span"
                             speed={50}
                             style={{
-                                fontSize: "1.4em",
+                                fontSize: "1em",
                                 display: "inline-block",
                             }}
                             repeat={Infinity}
